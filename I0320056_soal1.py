@@ -14,15 +14,16 @@ list[9] = 'Maurich'
 print("Nilai baru ada pada index 3:", list[3])
 print("Nilai baru ada pada index 5:", list[5])
 print("Nilai baru ada pada index 9:", list[9])
-print(list)
-#Menambahkan 2 teman baru
+print("Mengubah nama teman pada indeks 3,5,9:", list)
+#Menambahkan dua teman baru
 list.extend(['Rara','Nana'])
-print(list)
+print("Menambahkan dua teman baru:", list)
 #Menampilkan semua teman dengan perulangan
+print("Menampilkan semua nama teman dengan perulangan menggunakan for in:")
 for nama_teman in list:
     print(nama_teman)
 #Menampilkan panjang list
-print(len(list))
+print("Panjang list:", len(list))
 
 
 
