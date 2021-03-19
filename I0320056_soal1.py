@@ -14,7 +14,8 @@ print("Nilai baru ada pada index 9:", list[9])
 print(list)
 list.extend(['Rara','Nana'])
 print(list)
-print(list*4)
+for nama_teman in list:
+    print(nama_teman)
 print(len(list))
 
 

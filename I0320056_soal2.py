@@ -1,0 +1,1 @@
+dict = {'Nama':'Vicka','Hobi':'Menari','Menyayi'}
